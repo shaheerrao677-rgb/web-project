@@ -1,11 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+
   padding: 0px;
 }
 a {
   text-decoration: none;
-
   gap: 20px;
 }
 .main-main {
@@ -47,22 +48,40 @@ a {
 }
 .section-one {
   width: 50%;
+  display: flex;
+  gap: 35px;
+  flex-direction: column;
 }
 .section-two {
   width: 50%;
 }
+.for-gap p {
+  width: 580px;
+}
+.for-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+}
 .button7 {
   width: 260px;
-  height: 35px;
+  height: 67px;
   background-color: black;
   color: #ffffff;
   font-weight: 800px;
   font-size: 22px;
   align-items: center;
   display: flex;
-  justify-content: center;
   border-radius: 5px;
 }
+/* .button7 p {
+  width: 141px;
+  font-family: Gilroy;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 24.6px;
+  color: #ffffff;
+} */
 .section-one h2 {
   font-weight: 800;
   font-size: 55.5px;
@@ -84,15 +103,16 @@ a {
   background: #75bf7a;
   width: 1, 280px;
   height: 90px;
-  top: 897px;
-  left: 80px;
   color: #ffffff;
   align-items: center;
   border-radius: 10px;
   display: flex;
-  justify-content: space-around;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 .green-corner > div {
+  width: 499px;
+  height: 67px;
   display: flex;
   text-align: center;
   align-items: center;
@@ -161,6 +181,7 @@ span {
 .left-side {
   margin-top: 0px;
   display: flex;
+  justify-content: space-between;
   height: 0%;
   margin-top: 143px;
   flex-direction: column;
@@ -173,7 +194,7 @@ span {
 .text-sec {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 /* rigt side margin */
 .sideright- {
@@ -196,6 +217,7 @@ span {
 }
 .sideright- {
   display: flex;
+  justify-content: center;
   align-items: start;
   flex-direction: column;
   gap: 15px;
@@ -203,8 +225,120 @@ span {
 .left-side {
   text-align: right;
   display: flex;
+  justify-content: center;
   align-items: end;
   flex-direction: column;
-  width: 700px;
   gap: 15px;
+}
+.mobile1 {
+  width: 290px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.last-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 290px;
+  gap: 45px;
+}
+.boxes div {
+  width: 1060px;
+  height: 304px;
+  border-radius: 10px;
+}
+
+.benefits h1 {
+  font-weight: 600px;
+  font-style: Semibold;
+  font-size: 33.94px;
+}
+.benefits span {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 88px;
+}
+.benefits img {
+  width: 300px;
+}
+.benefits div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 350px;
+}
+.benefits p {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  color: #9e9da2;
+}
+.benefits {
+  display: flex;
+  gap: 31px;
+  justify-content: space-around;
+  border: 2px solid #75bf7a;
+}
+.boxes {
+  margin-top: 50px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+#special {
+  display: flex;
+  align-self: center;
+}
+.my-button {
+  width: 190px;
+  height: 50px;
+  background-color: black;
+  color: #ffffff;
+  font-weight: 800px;
+  font-size: 16.89px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.my-button img {
+  width: 30.9px;
+  height: 27.38px;
+}
+.my-button p {
+  font-family: Gilroy;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 16.89px;
+  width: 97px;
+}
+.footer-button {
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+  justify-content: space-around;
+}
+
+footer {
+  height: 300px;
+  display: flex;
+}
+
+footer > div {
+  width: 25%;
+  justify-content: center;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer > p {
+  color: #75bf7a;
+  text-align: center;
 }
